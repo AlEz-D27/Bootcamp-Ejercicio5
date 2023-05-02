@@ -1,14 +1,14 @@
 // Mi altura en centimetros
-let altura_mts = 178;
+let altura_cm = 178;
 
 // Mi altura en metros
-let altura_cm = 1.78;
+let altura_mts = 1.78;
 
 // Mi peso en kilogramos
 let peso_kg = 72.7;
 
 // Mi altura en metros redondeado hacia arriba
-let altura = Math.ceil(altura_cm);
+let altura = Math.ceil(altura_mts);
 console.log(altura);
 
 // Mi peso en kilogramos redondeado hacia abajo
